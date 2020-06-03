@@ -1,0 +1,6 @@
+server:
+  port: 8894
+spring:
+  application:
+    name: config_client
+    uri: https://github.com/FAuditore/1

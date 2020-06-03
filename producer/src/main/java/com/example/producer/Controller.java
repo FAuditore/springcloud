@@ -1,5 +1,8 @@
 package com.example.producer;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 /**
  * Created by IntelliJ IDEA.
  * User: FAuditore
@@ -9,7 +12,7 @@ package com.example.producer;
 @RestController
 public class Controller {
 
-    @RequestMapping("/helloProducer")
+    @RequestMapping("/producer")
     public String Hello(){
         return "Hello consumer";
     }

@@ -1,9 +1,9 @@
 server:
-  port: 8091
+  port: 8893
 spring:
   application:
     name: consumer
 eureka:
   client:
     serviceUri:
-      defaultZone: http://localhost:8000/eureka
+      defaultZone: http://localhost:8888/eureka
